@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SOS Project</string>
+    <string name="tab2">Add Incident</string>
+    <string name="tab1">Profile</string>
+    <string name="tab3">Incidents</string>
+    <string name="incident_type">Incident Type :</string>
+    <string name="description">Description :</string>
+    <string name="choose_your_location">Choose Your Location :</string>
+    <string name="report_button">Report</string>
+    <string name="call_911">Call 991!</string>
+    <string name="explain_hint">Explain the indicent</string>
+    <string name="login_button_text">Login</string>
+    <string name="signup_button_text">Sign Up</string>
+    <string name="nice_to_see">Nice to see you again!</string>
+    <string name="main_welcome">Welcome!</string>
+    <string name="main_logo_text">S.O.S.</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis velit lectus, aliquam in eleifend ac, bibendum malesuada diam. Suspendisse sit amet ligula ornare, malesuada nunc non, aliquam dui. Nunc varius, velit quis condimentum sollicitudin, nunc diam maximus mi, et tincidunt mi nisl in justo. </string>
+    <string name="incident_list">INCIDENT LIST</string>
+</resources>
