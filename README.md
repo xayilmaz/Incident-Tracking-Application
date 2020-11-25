@@ -1,1 +1,20 @@
-# Incident-Tracking-Application V1
+# Incident-Tracking-Application
+
+HOME PAGE ACTIVITY: This is the first page our S.O.S application. If users have not an account, they must sign up to access the system. If users already have had an account, they can enter the system by clicking on the login button. Logo of the application explains the goal. It represents the helping people and government each other. S.O.S stands for Save Our Souls or Save Our Ship. This name explains the resolve the problem and supplies the communication by using application.
+
+SIGNUP ACTIVITY: In signup activity, Application want user to enter a username, name and surname, password, phone number and mail address. And, if user want to upload a profile photograph, can add. You cannot enter the system without signing up. Application saves these information’s by using phpMySQl technology.
+
+LOGIN ACTIVITY: User must enter the system by using own username and password. If username and password is match in server data, the system is opened. If user forgot own password, can click forgot your password command and refresh the password by going to forget my password activity.
+
+PASSWORD RESET ACTIVITY: In this activity, Firstly, application want user to enter the belong to user email. If the email pair with any email in the server datas after click send verification code, it sends a random code to Gmail address that have paired. If the code matches with the code that have been send in the user email, system directs user Change Password Activity.
+
+CHANGE PASSWORD ACTIVITY: After the verification code comes to the user Gmail, user must obtain a new password to login to the system. User should enter their new password two times to testify. In this way, user can add incident or check the all situations of incidents.
+
+ADD INCIDENT ACTIVITY: Users add incident in this page. When an incident is added, users must put at least one picture into the picture area, users must define the details of incident such as how did it or by whom. And the type of the incident should be selected as broken road, accident, murder, robbery, sabotage, violence, and other incidents. At the same time users must select the incident location to found. (When you add an incident please click the location adding image.) At least one Picture area, and description area must not be empty. You can see the date automatically when you add an incident. After the adding incident operation end, please you click the report button. In this manner, your incident is sending the database system. If the incident is very important and urgent, you can call the emergency. Images are kept on firebase and other datas are kept on php MySQL.
+
+PROFILE ACTIVITY: When user enter to their profile, they can see their profile photo, phone number, email address and all the incidents that have added. If an incident was uncoiled or desired to end, it should be converted active to passive by using switch off property. The whole incidents which have been added by whole users are shown in the Incidents Page. If an incident was made passive or invalid case, other users cannot see passive incident expect for its user. Passive incident just can be visible by user who added the incident. By clicking the incidents card, user can see details of incident like date, explanation, location and adding by whom. When user login the application, we transferred the user information into the shared references. In this page user informations come from the shared references and user can be logout the account.
+
+INCIDENT ACTIVITY: Whole incidents can be shown in this activity. Users examine the incident type, explanation, location, date of incident and of course users can see incident was added by whom as a incidents list. As on the profile page, users can examine and see the more details of incident by clicking on the incident card.
+
+INCIDENT DETAIL ACTIVITY: In this part, users can see as a page of incidents that wanted to be examined. Informations of date, photo, description, user, location, type is shown in this page. Headers of the pages are types of incidents. In addition to this, users can be vote like dislike, like and giving approval. When users vote, they can just choose one of them.
+
