@@ -1,4 +1,5 @@
 # Incident-Tracking-Application
+Incident Tracking Application with Using Java, Firebase, and phpServer.
 
 HOME PAGE ACTIVITY: This is the first page our S.O.S application. If users have not an account, they must sign up to access the system. If users already have had an account, they can enter the system by clicking on the login button. Logo of the application explains the goal. It represents the helping people and government each other. S.O.S stands for Save Our Souls or Save Our Ship. This name explains the resolve the problem and supplies the communication by using application.
 
